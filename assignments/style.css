@@ -1,140 +1,96 @@
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
 
-    * {
-      box-sizing: border-box;
-    }
+.navbar{
+  border-radius: 0px;
+  background-color: rgba(0,0,0,0.8);
+}
 
-    .link{
-      color:blue;
+.navbar-brand{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
 
-    }
+.navbar-brand:hover{
+  color: white;
+}
 
-    .menu-item:hover{
-       background-color: rgba(0,0,0,0.9);
-       color: rgba(0,0,0,0.4);
-     }
+.nav{
+  margin: 0;
+  padding: 0;
+}
 
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
-    body{
-      margin: 0;
-      padding: 0;
-      font-family: "Comic Sans MS", cursive, sans-serif;
-    }
-    .container-fluid{
-      margin: 0;
-      padding: 0;
-    }
+.navbar-toggle{
+  border: 2px solid white;
+  margin-right: 25px;
+}
 
-    .navbar{
-      border-radius: 0px;
-      background-color: rgba(0,0,0,0.8);
-    }
-
-    .navbar-brand{
-      font-size: 35px;
-      color: white;
-      padding-left: 25px;
-    }
-
-    .navbar-brand:hover{
-      color: white;
-    }
-
-    .nav{
-      margin: 0;
-      padding: 0;
-    }
-
-    .navbar-nav{
-      font-size: 25px;
-      text-align: center;
-      margin: 0;
-      padding: 0;
-    }
-
-    .navbar-toggle{
-      border: 2px solid white;
-      margin-right: 25px;
-    }
-
-    .icon-bar{
-      background-color: white;
-    }
-
-    h2{
-      color:grey;
-    }
-    h1 {
-      margin-bottom: 15px;
-      font-size: 55px;
-      text-align: center;
-      font-weight: bold;
-      color: orange;
-    }
-    
-    .main-title{
-      text-align: center;
-      font-weight: bold;
-      color:blue;
-    }
-    .box{
-      width: 100%;
-      overflow: none;
-    }
-
-    .cbs{
-      text-align: center;
-      font-weight: bold;
-      font-size: 1.2em;
-    }
-
-    .food{
-      border: 5px solid black;
-      font-size: 17px;
-      width: 95%;
-      background-color: grey;
-      height: auto;
-      padding: 2%;
-      padding-top: 10px;
-      margin: 2.5%;
-      color: black;  
-    }
-
-    .main-title{
-      margin-bottom: 15px;
-      text-align: center;
-      color: #ff4532;
-      font-size: 50px;
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      font-weight: bold;
-    }
+.icon-bar{
+  background-color: white;
+}
 
 
-    /********** Large devices only **********/
-    @media (min-width: 992px) {
-      .col-lg-4 {
-        float: left;
-        width: 33.33%;
-      }
-    }
-    /********** Medium devices only **********/
-    @media (min-width: 768px) and (max-width: 991px) {
-      .col-md-6,.col-md-12 {
-        float: left;
-      }
-      .col-md-6 {
-        width: 50%;
-      }
-      .col-md-12 {
-        margin-left: -10px;
-        width: 100%;
-      }
-    }
-    /********** small devices only **********/
-    @media (max-width: 767px) {
-      .col-sm-12 {
-        float: left;
-        width: 100%;
-      }
-    }
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ff4532;
+  font-size: 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+}
 
- 
+li{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.menu-item{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid black;
+  color: black;
+  display: block;
+}
+
+.menu-item:hover{
+  background-color: rgba(0,0,0,0.9);
+  color: rgba(0,0,0,0.4);
+}
+
+
+
+.row{
+  margin: 20px;
+}
+
+.content{
+  margin: 20px;
+  width: auto;
+  height: auto;
+  color: black;
+  background-color: rgba(0,0,0,0.2);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  padding: 20px;
+}
+
+.item{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#top{
+
+}
